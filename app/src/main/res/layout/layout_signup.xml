@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccentTrans"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="48dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_user" />
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        android:orientation="vertical">
+
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Spinner
+                android:id="@+id/type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"></Spinner>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#FFF">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/ettitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:hint="name of scools/municipality/NGO"
+                    android:textColor="#FFFFFF" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#FFF">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/etemailS"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:hint="Email"
+                    android:textColor="#FFFFFF" />
+            </android.support.design.widget.TextInputLayout>
+
+            <Spinner
+                android:id="@+id/city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"></Spinner>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#FFF">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/etcontact"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:inputType="number"
+                    android:hint="Contact number"
+
+                    android:textColor="#FFFFFF" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColorHint="#FFF">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/etpasswordS"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:inputType="textPassword"
+                    android:hint="Password"
+                    android:textColor="#FFFFFF" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColorHint="#FFF">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/etconformS"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:hint="Conform password"
+                    android:inputType="textPassword"
+                    android:textColor="#FFFFFF" />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#FFF">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/etadrress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:hint="Address"
+                    android:textColor="#FFFFFF" />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <Button
+                android:id="@+id/submitbuttuon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@null"
+                android:text="Signup"
+                android:textColor="#FFF"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+    </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

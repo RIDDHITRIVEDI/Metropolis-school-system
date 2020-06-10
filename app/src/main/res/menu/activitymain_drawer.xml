@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="all">
+        <item
+            android:id="@+id/nav_your_mail"
+            android:icon="@mipmap/formspringspirallogo"
+            android:title=" Your Mail" />
+        <item
+            android:id="@+id/nav_municipality"
+            android:icon="@mipmap/applicationform"
+            android:title=" Municipality" />
+        <item
+            android:id="@+id/nav_schools"
+            android:icon="@mipmap/university"
+            android:title="Schools" />
+        <item
+            android:id="@+id/nav_NGOs"
+            android:icon="@mipmap/teamwork"
+            android:title="NGOs" />
+ 
+    </group>
+    <item android:title="Activity">
+        <menu>
+            <item
+                android:id="@+id/nav_student_details"
+                android:icon="@mipmap/boyandgirlstudents"
+                android:title="Student details" />
+
+            <item
+                android:id="@+id/nav_surveys"
+                android:icon="@mipmap/chart"
+                android:title="Surveys" />
+            <item
+                android:id="@+id/nav_remain_student"
+                android:icon="@drawable/remaing"
+                android:title="Remain Student" />
+            <item
+                android:id="@+id/nav_announcements"
+                android:icon="@mipmap/megaphone"
+                android:title="Announcements" />
+            <item
+                android:id="@+id/nav_admission"
+                android:icon="@drawable/icon"
+                android:title="Admission process" />
+        </menu>
+    </item>
+    <item android:title="Others">
+        <menu>
+
+            <item
+                android:id="@+id/nav_contact_admin"
+                android:icon="@mipmap/adminmessage"
+                android:title="Contact admin" />
+            <item
+                android:id="@+id/nav_FAQs"
+                android:icon="@mipmap/formspringspirallogo"
+                android:title="FAQs" />
+
+            <item
+                android:id="@+id/viewpager1"
+                android:icon="@mipmap/ic_launcher"
+                android:title="surveys"
+                android:visible="false" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@mipmap/logout"
+                android:title="Logout" />
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@mipmap/settings"
+                android:title="Settings" />
+            <item
+                android:id="@+id/news"
+                android:icon="@mipmap/ic_launcher"
+
+                android:visible="false"/>
+            <item
+                android:id="@+id/brif"
+                android:icon="@mipmap/ic_launcher"
+
+                android:visible="false"/>
+
+        </menu>
+    </item>
+
+</menu>

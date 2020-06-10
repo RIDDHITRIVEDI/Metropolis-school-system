@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_forgot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.riddhi.m1etropolishtutelage.forgot"
+    tools:showIn="@layout/activity_forgot"
+    android:orientation="vertical">
+
+    <Button
+        android:text="ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ok" />
+
+    <EditText
+        android:hint="enter mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mail"
+        android:layout_below="@+id/ok"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="38dp" />
+    <Button
+        android:text="s2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ok2"
+        android:visibility="gone"/>
+
+
+    <EditText
+        android:hint="enter otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mail3"
+        android:layout_below="@+id/ok"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="38dp" />
+    <Button
+        android:text="s3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ok3"/>
+
+    <EditText
+        android:hint="enter password"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mail2"
+        android:layout_below="@+id/ok2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="130dp"
+      />
+
+</LinearLayout>

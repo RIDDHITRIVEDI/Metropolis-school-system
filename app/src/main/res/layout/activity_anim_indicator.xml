@@ -1,0 +1,177 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+   android:background="#E0E0E0"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <cn.lightsky.infiniteindicator.InfiniteIndicator
+        android:id="@+id/infinite_anim_line"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_gravity="bottom"
+        app:indicator_type="indicator_anim_line" />
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:id="@+id/linear_main"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:weightSum="1">
+                <RelativeLayout
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/shape">
+
+                    <RelativeLayout
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/shape2">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="5dp"
+                            android:text="City"
+                            android:textStyle="normal|bold" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="40dp"
+                        android:paddingTop="45dp"
+                        android:text="Kalol" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="3dp"
+                    android:background="@drawable/shape">
+
+                    <RelativeLayout
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/shape2">
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="5dp"
+                            android:text="Year"
+
+                            android:textStyle="normal|bold" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="40dp"
+                        android:paddingTop="45dp"
+                        android:text="2017" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="3dp"
+                    android:background="@drawable/shape">
+
+                    <RelativeLayout
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/shape2">
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="5dp"
+                            android:text="N/A"
+                            android:textStyle="normal|bold" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="40dp"
+                        android:paddingTop="45dp"
+                        android:text="57" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="3dp"
+                    android:background="@drawable/shape">
+
+                    <RelativeLayout
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/shape2">
+
+                        <TextView
+                            android:id="@+id/textView8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="30dp"
+                            android:paddingTop="5dp"
+                            android:text="Admitted"
+
+                            android:textStyle="normal|bold" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="40dp"
+                        android:paddingTop="45dp"
+                        android:text="143" />
+                </RelativeLayout>
+
+
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+    <TextView
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:text="Headlines" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/headlines">
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"></android.support.v7.widget.RecyclerView>
+
+
+</LinearLayout>
+
+

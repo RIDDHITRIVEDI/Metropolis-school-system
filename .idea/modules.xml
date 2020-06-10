@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/M(1)etropolishTutelage.iml" filepath="$PROJECT_DIR$/M(1)etropolishTutelage.iml" group="M(1)etropolishTutelage" />
+      <module fileurl="file://$PROJECT_DIR$/MPChartLib/MPChartLib.iml" filepath="$PROJECT_DIR$/MPChartLib/MPChartLib.iml" group="M(1)etropolishTutelage/MPChartLib" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="M(1)etropolishTutelage/app" />
+    </modules>
+  </component>
+</project>

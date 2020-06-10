@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "951590324113",
+    "firebase_url": "https://m1etropolishtutelage.firebaseio.com",
+    "project_id": "m1etropolishtutelage",
+    "storage_bucket": "m1etropolishtutelage.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:951590324113:android:d8deba63fd4b8e27",
+        "android_client_info": {
+          "package_name": "com.example.riddhi.m1etropolishtutelage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "951590324113-t1op98qgfg8dv367ufq42vivijroqtlq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.riddhi.m1etropolishtutelage",
+            "certificate_hash": "625a8852d9cb8eba253f9200b46defe27e14b8c3"
+          }
+        },
+        {
+          "client_id": "951590324113-cl5sv4fhsqa3kfqvuvak2jqgqu1ovlol.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUJrwJjMkYpyq7tCfYOKC8BwlmUAJijKM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "951590324113-cl5sv4fhsqa3kfqvuvak2jqgqu1ovlol.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
